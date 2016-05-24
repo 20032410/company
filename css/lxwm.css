@@ -1,0 +1,40 @@
+li:nth-child(7) span{
+	display: block;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#dituContent{
+	width:100%;
+	height:100%;
+	border:#ccc solid 1px;
+}
+.map{
+	width: 1280px;
+	height: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #ccc;
+}
+.mapbar{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	align-items: center;
+}
+.phone,.address,.email{
+	width: 250px;
+	height: 150px;
+	margin-left: 135px;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+}
+.maptitle{
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #0481d9;
+}
+.mapcont{
+	color: #0481d9;
+}

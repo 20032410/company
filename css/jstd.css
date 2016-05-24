@@ -1,0 +1,101 @@
+li:nth-child(4) span{
+	display: block;
+}
+#jstd{
+	background-image: url(images/jstd.jpg);
+	background-size: cover;
+	background-color: #fff;
+}
+.team{
+	width: 1100px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: -10%;
+	opacity: 0;
+}
+.tuandui{
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+	list-style: none;
+}
+.card-hover{
+	width: 200px;
+	height: 300px;
+}
+.card-text{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: #6699ee;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 3px 5px 5px 1px #aaa;
+	position: relative;
+	z-index: 5;
+}
+.box-title{
+	padding-top: 80px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.box_left{
+	width: 30px; 
+	border-width: 0px 70px 40px 0px; 
+	border-style: none solid solid; 
+	border-color: transparent transparent #6699ee;
+	position: relative;
+	top: 40px;
+	z-index: 5;
+}
+.box_right{
+	width: 30px; 
+	border-width: 0px 0px 40px 70px; 
+	border-style: none solid solid; 
+	border-color: transparent transparent #6699ee;
+	position: relative;
+	left: 100px;
+	z-index: 5;
+}
+.card{
+	width: 180px;
+	height: 220px;
+	background-color: #ffcc99;
+	box-shadow: 3px 5px 5px 1px #aaa;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	z-index: 1;
+	overflow: hidden;
+}
+.cardp{
+	padding-top: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+.card img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	float: left;
+}
+.card-text-con{
+	padding: 10px 10px;
+	color: #555;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing:1px;		
+}

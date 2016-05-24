@@ -1,0 +1,175 @@
+body{
+	max-width: 2560px;
+	min-width: 1024px;
+	max-height: 2000px;
+	overflow-y:hidden;
+}
+nav{
+	background-color: none;
+	z-index: 2;
+	position: relative;
+}
+li:nth-child(1) span{
+	display: block;
+}
+#sy{ 
+	margin-top: -50px;
+	width: 100%;
+	max-height: 1600px;
+	min-height: 600px;
+	min-width: 1280px;
+}
+.imgs-button{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	bottom: 100px;
+	text-align: center;
+}
+.imgs-button span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #888;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.imgs-button span:not(:last-child){
+	margin-right: 20px;
+}
+.on{
+	background-color: #0089D1;
+}
+.sy-pack{
+	width: 1280px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+.shouye-left{
+	float: left;
+}
+.shouye-right{
+	width: 500px;
+	padding: 20px 20px;
+	float: right;
+	color: #fff;
+	background-color: #000;
+	font-size: 20px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+.sy-con1{
+	height: 100%;
+	min-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+	background-image: url(images/111.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sy-con2{
+	height: 100%;
+	min-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+	background-image: url(images/222.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.sy-con3{
+	height: 100%;
+	min-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+	background-image: url(images/333.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.jingchuang1{
+	width: 300px;
+	position: relative;
+	left: -1500px;
+	animation: jingchuang1 0.5s linear 0.5s 1 normal forwards;
+}
+@keyframes jingchuang1{
+	from{left: -1500px;}
+	to{left: 300px;}
+}
+.jingchuang2{
+	width: 600px;
+	font-size: 40px;
+	line-height: 70px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei";
+	color: #2576FC;
+	position: relative;
+	left: -1500px;
+	animation: jingchuang2 0.5s linear 0.8s 1 normal forwards;
+}
+@keyframes jingchuang2{
+	from{left: -1500px;}
+	to{left: 200px;}
+}
+.jingchuang3{
+	width: 300px;
+	font-size: 30px;
+	line-height: 70px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei";
+	color: #2576FC;
+	position: relative;
+	left: -1500px;
+	animation: jingchuang3 0.5s linear 1.1s 1 normal forwards;
+}
+@keyframes jingchuang3{
+	from{left: -1500px;}
+	to{left: 100px;}
+}
+.nihao{
+	height: 100%;
+	width: 100%;
+	min-width: 1280px;
+	overflow: hidden;
+	position: relative;
+	top: -50px;
+}
+.buhao{
+	height: 100%;
+	min-width: 1280px;
+	position: relative;
+	left: 0;
+}
+.sy-con2 h1{
+	position: relative;
+	right: 300px;
+	font-size: 60px;
+	line-height: 100px;
+	color: #2576FC;
+}
+.sy-con2 h2,.sy-con2 h3{
+	position: relative;
+	right: 300px;
+	line-height: 50px;
+	color: #2576FC;
+}
+.sy-con3 h1{
+	position: relative;
+	left: 330px;
+	font-size: 60px;
+	line-height: 100px;
+	color: #fff;
+	opacity: 0.5;
+}
+.sy-con3 h2,.sy-con3 h3{
+	position: relative;
+	left: 330px;
+	line-height: 50px;
+	color: #fff;
+	opacity: 0.5;
+}
