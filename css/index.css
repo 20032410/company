@@ -48,6 +48,7 @@ li:nth-child(1) span{
 }
 .shouye-left{
 	float: left;
+	margin-left: -50px;
 }
 .shouye-right{
 	width: 500px;
@@ -99,7 +100,7 @@ li:nth-child(1) span{
 }
 @keyframes jingchuang1{
 	from{left: -1500px;}
-	to{left: 300px;}
+	to{left: 200px;}
 }
 .jingchuang2{
 	width: 600px;
@@ -114,7 +115,7 @@ li:nth-child(1) span{
 }
 @keyframes jingchuang2{
 	from{left: -1500px;}
-	to{left: 200px;}
+	to{left: 100px;}
 }
 .jingchuang3{
 	width: 300px;
@@ -129,7 +130,7 @@ li:nth-child(1) span{
 }
 @keyframes jingchuang3{
 	from{left: -1500px;}
-	to{left: 100px;}
+	to{left: 0px;}
 }
 .nihao{
 	height: 100%;

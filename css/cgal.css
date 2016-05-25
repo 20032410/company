@@ -40,7 +40,7 @@ li:nth-child(3) span{
 	transform: rotateX(0deg);
 }
 .al-con img:hover{
-	animation: myfirst 1s linear 0s 1 normal;
+	animation: myfirst 0.8s linear 0s 1 normal;
 }
 @keyframes myfirst{
 	from{transform: rotateY(0deg);}
