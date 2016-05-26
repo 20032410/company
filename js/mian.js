@@ -36,7 +36,7 @@ $(document).ready(function(){
 		}
 	})
 	$(function(){
-		 setInterval (showTime, 6000);
+		 //setInterval (showTime, 6000);
 		 function showTime(){
 			var left = parseInt($('.buhao').css('left'));
 			var left1 = parseInt($('.nihao').width());
